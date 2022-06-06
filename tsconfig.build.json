@@ -1,5 +1,10 @@
-
 {
   "extends": "./tsconfig",
-  "exclude": ["example"]
+  "exclude": [
+    "example",
+    "**/example",
+    "**/example/src/*",
+    "**/node_modules",
+    "**/typings",
+  ]
 }
